@@ -12,12 +12,47 @@ body {
     background-color: #202027;
     font-family: 'Poppins', sans-serif;
     font-size: 1.2rem;
+    min-height: 100vh;
 }
 
 .brand-logo {
     display: flex;
     align-items: center;
     font-size: 1.25rem;
-    color: inherit;
+    color: #fff;
     text-decoration: none;
+}
+
+.brand-logo-name {
+    margin-left: 1rem;
+}
+
+.main-nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.main-nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.main-nav a:hover {
+    color: #f2645f;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
 }
