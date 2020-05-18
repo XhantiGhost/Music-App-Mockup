@@ -15,6 +15,11 @@ body {
     min-height: 100vh;
 }
 
+.full-height-grow {
+    display: flex;
+    flex-direction: column;
+}
+
 .brand-logo {
     display: flex;
     align-items: center;
@@ -55,4 +60,28 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 40px;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    color: #fff;
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.btn {
+    color: #fff;
+    background-color: rgba(39, 149, 223, 0.37);
+    padding: .75rem 1.5rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    font-size: .9rem;
 }
